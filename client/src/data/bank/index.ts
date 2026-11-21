@@ -12,6 +12,7 @@ import { CHART_QUESTIONS } from "./legacy-chart";
 import { PACK_ONE_QUESTIONS } from "./pack-01";
 import { PACK_TWO_QUESTIONS } from "./pack-02";
 import { PACK_THREE_QUESTIONS } from "./pack-03";
+import { PACK_FOUR_QUESTIONS } from "./pack-04";
 import { DOMAINS } from "./types";
 import type { BankQuestion, DomainKey } from "./types";
 
@@ -28,6 +29,7 @@ export { CHART_QUESTIONS } from "./legacy-chart";
 export { PACK_ONE_QUESTIONS } from "./pack-01";
 export { PACK_TWO_QUESTIONS } from "./pack-02";
 export { PACK_THREE_QUESTIONS } from "./pack-03";
+export { PACK_FOUR_QUESTIONS } from "./pack-04";
 
 export const ALL_SCENARIO_QUESTIONS: BankQuestion[] = [
   ...SCENARIO_QUESTIONS,
@@ -42,6 +44,7 @@ export const ALL_SCENARIO_QUESTIONS: BankQuestion[] = [
   ...PACK_ONE_QUESTIONS,
   ...PACK_TWO_QUESTIONS,
   ...PACK_THREE_QUESTIONS,
+  ...PACK_FOUR_QUESTIONS,
 ];
 
 export const ALL_QUESTIONS: BankQuestion[] = [
