@@ -14,6 +14,7 @@ import { PACK_TWO_QUESTIONS } from "./pack-02";
 import { PACK_THREE_QUESTIONS } from "./pack-03";
 import { PACK_FOUR_QUESTIONS } from "./pack-04";
 import { PACK_FIVE_QUESTIONS } from "./pack-05";
+import { PACK_SIX_QUESTIONS } from "./pack-06";
 import { DOMAINS } from "./types";
 import type { BankQuestion, DomainKey } from "./types";
 
@@ -32,6 +33,7 @@ export { PACK_TWO_QUESTIONS } from "./pack-02";
 export { PACK_THREE_QUESTIONS } from "./pack-03";
 export { PACK_FOUR_QUESTIONS } from "./pack-04";
 export { PACK_FIVE_QUESTIONS } from "./pack-05";
+export { PACK_SIX_QUESTIONS } from "./pack-06";
 
 export const ALL_SCENARIO_QUESTIONS: BankQuestion[] = [
   ...SCENARIO_QUESTIONS,
@@ -47,6 +49,7 @@ export const ALL_SCENARIO_QUESTIONS: BankQuestion[] = [
   ...PACK_TWO_QUESTIONS,
   ...PACK_THREE_QUESTIONS,
   ...PACK_FOUR_QUESTIONS,
+  ...PACK_SIX_QUESTIONS,
 ];
 
 export const ALL_QUESTIONS: BankQuestion[] = [
